@@ -1,0 +1,19 @@
+{
+  "name": "simple-express-server",
+  "version": "1.0.0",
+  "description": "A basic Express.js server with Nodemon support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["express", "node", "nodemon"],
+  "author": "Shirisha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
